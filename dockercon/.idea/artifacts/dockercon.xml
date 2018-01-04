@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="dockercon">
+    <output-path>$PROJECT_DIR$/docker-dir</output-path>
+    <root id="archive" name="dockercon.war">
+      <element id="javaee-facet-resources" facet="dockercon/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="dockercon" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
